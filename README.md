@@ -33,19 +33,11 @@ nltk.download('stopwords')
 
 ## Usage
 
-**1. Preprocessing**: The `preprocess.py` script contains functions for tokenizing the text, removing stopwords, and applying stemming.
+**1. Preprocessing**: This section contains functions for tokenizing the text, removing stopwords, and applying stemming.
 
-**2. Analysis**: The `analysis.py` script includes code for basic text analysis, such as word frequency distribution and generating statistics about the text.
+**2. Analysis**: This section includes code for basic text analysis, such as word frequency distribution and generating statistics about the text.
 
-**3. Visualization**: The `visualization.py` script demonstrates how to create and display word clouds from the processed text data.
-
-Run the scripts from the command line:
-
-```bash
-python preprocess.py
-python analysis.py
-python visualization.py
-```
+**3. Visualization**: This section demonstrates how to create and display word clouds from the processed text data.
 
 ## Data
 
