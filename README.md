@@ -19,32 +19,16 @@ This project demonstrates how to use NLTK (Natural Language Toolkit) for text pr
 
 To use the scripts in this repository, you'll need to have Python installed. Additionally, install the required Python packages using pip:
 
-```bash
-pip install nltk beautifulsoup4
-```
+bash
+pip install nltk wordcloud matplotlib
+
 
 After installing the required packages, you will also need to download additional NLTK resources.
 
-```bash
+bash
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
-```
-
-You’ll also need to import the following libraries in your script.
-
-```bash
-import random
-import re
-import nltk
-import bs4 as bs  # Beautiful Soup
-import urllib.request
-from nltk.tokenize import word_tokenize
-from nltk.corpus import stopwords
-from nltk.tokenize import sent_tokenize, word_tokenize
-import string
-import heapq
-```
 
 ## Usage
 
